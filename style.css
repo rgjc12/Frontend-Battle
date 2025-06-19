@@ -98,6 +98,26 @@
   font-family: z1;
   src:url(./assets/z1.woff2);
 }
+
+
+:root {
+  --main-bg: #1d1d1d;     /* Default: dark mode background */
+  --text-color: whitesmoke;
+  --nav-color: white;
+  --circle2-color: whitesmoke;
+}
+
+body.light-mode {
+  --main-bg: #f3f3f3;     /* Light mode background */
+  --text-color: #111;
+  --nav-color: #111;
+  --circle2-color: #111;
+}
+
+
+
+
+
 body{
   margin:0;
   padding:0;
